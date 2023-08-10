@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/invoice
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: root
+logging:
+  level:
+    org:
+      springframework:
+        jdbc:
+          core: TRACE
