@@ -10,6 +10,8 @@ data class BusinessAddress(
     val location: String,
     val postCode: String,
     val generalLocation: String
-)
+) {
+    fun display() = "$postCode, $location\n$generalLocation"
+}
 
 
